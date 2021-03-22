@@ -163,6 +163,11 @@ body {
   line-height: 100%;
 }
 
+.popup__link {
+  margin-left: 10px;
+  display: flex;
+}
+
 .popup__btn {
   padding: 5px 36px;
   background-color: #2F80ED;
@@ -180,3 +185,33 @@ body {
   bottom: 21px;
   right: -26px;
 }
+
+@media (max-width: 1137px) {
+  .popup__content {
+    padding-top: calc(9px + (14 - 9) * ((100vw - 320px) / (1137 - 320)));
+    padding-right: calc(10px + (86 - 10) * ((100vw - 320px) / (1137 - 320)));
+    padding-left: calc(10px + (86 - 10) * ((100vw - 320px) / (1137 - 320)));
+    padding-bottom: calc(14px + (28 - 14) * ((100vw - 320px) / (1137 - 320)));
+  }
+
+  .popup__close {
+    right: calc(10px + (30 - 10) * ((100vw - 320px) / (1137 - 320)));
+    top: calc(9px + (14 - 9) * ((100vw - 320px) / (1137 - 320)));
+  }
+
+  .popup__title {
+    margin-top: calc(-2px + (50 - -2) * ((100vw - 320px) / (1137 - 320)));
+    margin-bottom: calc(10px + (40 - 10) * ((100vw - 320px) / (1137 - 320)));
+  }
+}
+
+@media (max-width: 768px) {
+    .popup__footer {
+      flex-wrap: wrap;
+    }
+
+    .popup__link {
+      margin-left: auto;
+      margin-top: 10px;
+    }
+  }
