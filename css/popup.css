@@ -73,7 +73,7 @@ body {
   padding-top: 100px;
   padding-left: 20px;
   display: block;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .popup {
@@ -84,7 +84,7 @@ body {
   top: 0;
   left: 0;
   opacity: 0;
-  visibility: hidden;
+  visibility: collapse;
   overflow-y: auto;
   overflow-x: hidden;
   transition: all 0.8s ease 0s;
