@@ -218,15 +218,15 @@ body {
       
     }
 
-    .popup__media {
+    /* .popup__media {
       height: 535px;
-    }
+    } */
 
-    .popup__img {
+    /* .popup__img {
       object-fit: cover;
       width: 100%;
       height: 100%;
-    }
+    } */
 
     .popup__like img {
       width: 40px;
