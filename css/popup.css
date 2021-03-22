@@ -213,5 +213,16 @@ body {
     .popup__link {
       margin-left: auto;
       margin-top: 10px;
+      
+    }
+
+    .popup__media {
+      height: 535px;
+    }
+
+    .popup__img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
     }
   }
