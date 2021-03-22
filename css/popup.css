@@ -122,7 +122,7 @@ body {
   max-width: 1137px;
   padding: 14px 86px 28px 86px;
   position: relative;
-  transition: all 0.8s ease 0s;
+  transition: all 0.7s ease 0s;
   opacity: 0;
   transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
 }
