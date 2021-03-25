@@ -7,39 +7,45 @@
   <link rel="stylesheet" href="css/popup.css"></link>
 </head>
 <body>
-  <a href="#popup" class="popup__top">Вызвать POPUP</a>
+  <div class="wrapper">
+    <a href="#popup" class="popup__top popup-link">Вызвать <br> POPUP</a>
+
+    <div class="fake">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, libero distinctio odio aspernatur eaque modi. Dicta distinctio expedita ex dolorem esse nisi vero repudiandae, accusantium quo in deleniti voluptatibus tempora?
+    </div>
    
-  <div id="popup" class="popup">
-    <a href="#" class="popup__area"></a>
-    <div class="popup__body">
-      <div class="popup__content">
-        <a href="#" class="popup__close">
-          <img src="img/icon-close.svg" alt="close">
-        </a>
-        <div class="popup__title">Title big big</div>
-        <div class="popup__media">
-          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/192435760?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-          <!-- <img class="popup__img" src="img/usa.jpg" alt="image"> -->
-          <a href="#" class="popup__like">
-            <img src="img/popup-like.svg" alt="like">
+    <div id="popup" class="popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#" class="popup__close close-popup">
+            <img src="img/icon-close.svg" alt="close">
           </a>
-        </div>
-        <div class="popup__footer">
-          <p class="popup__text">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. <br> 
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
-          </p>
-          
-          <div class="popup__link">
-            <a href="#" class="popup__btn">Больше</a>
+          <div class="popup__title">Title big big</div>
+          <div class="popup__media">
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/192435760?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+            <!-- <img class="popup__img" src="img/usa.jpg" alt="image"> -->
+            <a href="#" class="popup__like">
+              <img src="img/popup-like.svg" alt="like">
+            </a>
+          </div>
+          <div class="popup__footer">
+            <p class="popup__text">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. <br> 
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
+            </p>
+            
+            <div class="popup__link">
+              <a href="#" class="popup__btn">Больше</a>
+            </div>
+            
           </div>
           
         </div>
-        
       </div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+  
+  
+  <script src="js/popup.js"></script>
 </body>
 </html>
